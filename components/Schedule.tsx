@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import picture11 from "../public/picture11.jpg";
+import picture12 from "../public/picture12.jpg";
 
 
 const Schedule = () => {
@@ -21,7 +21,7 @@ const Schedule = () => {
           ağırlıklı bir program olarak ilerlemektedir.
       </p>
       </div>
-      <Image src={picture11} alt="image" className="rounded-xl" width={350}/>
+      <Image src={picture12} alt="image" className="rounded-xl" width={350}/>
       
     </div>
   );
