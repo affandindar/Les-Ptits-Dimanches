@@ -5,7 +5,6 @@ import Image from "next/image";
 import logo from "../public/logoa3-1.png";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import students from "../public/test1.jpg"
 
 export const links = [
   "ANASAYFA",
