@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bottom-separator {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.bottom-separator:after {
+    box-shadow: 0 0 0 100px #fff;
+    border-radius: 100%;
+    position: absolute;
+    content: '';
+    right: -20%;
+    left: -20%;
+    height: 190px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
