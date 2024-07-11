@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import { alisson } from "@/app/fonts";
 import students1 from "../public/goalsImg.jpg";
 import img44 from "../public/IMG_4400.jpg";
+import hero from "../public/hero.jpg";
 
 
 
@@ -36,13 +37,8 @@ export const Hero = () => {
         
       </div>
 
-      <div className="hidden md:flex">
-      <Image src={students1} alt="hero" className="brightness-[0.80] h-svh object-cover" />
-      </div>
-
-      <div className="md:hidden">
-      <Image src={img44} alt="hero" className="brightness-[0.80] h-svh object-cover object-[50%]" />
-      </div>
+      <Image src={hero} alt="hero" className="brightness-[0.80] h-svh object-cover " />
+      
       
       
       

@@ -6,6 +6,7 @@ import picture6 from "../public/picture6.jpg";
 import { Dialog, Transition } from "@headlessui/react";
 import { Disclosure, Tab } from "@headlessui/react";
 import { ChevronUpIcon, XMarkIcon } from "@heroicons/react/20/solid";
+import side from "../public/side.jpg";
 
 const Hours = () => {
   const router = useRouter();
@@ -30,7 +31,7 @@ const Hours = () => {
 
   return (
     <div className="bg-[#77DD77] flex md:flex-row flex-col items-center rounded-2xl p-5">
-      <Image src={picture6} alt="image" className="rounded-xl" width={350}/>
+      <Image src={side} alt="image" className="rounded-xl" width={350}/>
       <div className="p-4 text-pretty flex flex-col gap-8 text-white">
         <h1 className="text-center font-bold text-3xl text-white pt-5 md:pt-0">
           SAATLER VE GRUPLAR
@@ -129,11 +130,10 @@ const Hours = () => {
                         <br />
                         09.20-10.00
                         <br />
-                        Başlangıç: 5 Eylül 2023
+                        Başlangıç: 10 Eylül 2024
                         <br />
-                        Bitiş: 27 Haziran 2024
+                        Bitiş: 26 Haziran 2025
                         <br />
-                        Ücret: Aylık: (8 Atölye) : 4000 TL (kdv hariç)
                       </Disclosure.Panel>
                     </>
                   )}
@@ -155,11 +155,10 @@ const Hours = () => {
                         <br />
                         09.20-10.00
                         <br />
-                        Başlangıç: 5 Eylül 2023
+                        Başlangıç: 11 Eylül 2024
                         <br />
-                        Bitiş: 27 Haziran 2024
+                        Bitiş: 26 Haziran 2025
                         <br />
-                        Ücret: Aylık: (4 Atölye) : 2000 TL (kdv hariç)
                       </Disclosure.Panel>
                     </>
                   )}
@@ -282,13 +281,10 @@ const Hours = () => {
                         <br />
                         10.30-12.30
                         <br />
-                        Başlangıç: 5 Eylül 2023
+                        Başlangıç: 3 Eylül 2024
                         <br />
-                        Bitiş: 27 Haziran 2024
+                        Bitiş: 26 Haziran 2025
                         <br />
-                        Ücret: Aylık: 7500 TL (kdv hariç)
-                        <br />
-                        Kırtasiye ücreti yılda bir kere alınır. 1500TL dir.
                       </Disclosure.Panel>
                     </>
                   )}
@@ -308,15 +304,12 @@ const Hours = () => {
                       <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm">
                         Salı - Perşembe
                         <br />
-                        14.30-16.00
+                        15.00-16.30
                         <br />
-                        Başlangıç: 5 Eylül 2023
+                        Başlangıç: 3 Eylül 2024
                         <br />
-                        Bitiş: 27 Haziran 2024
+                        Bitiş: 26 Haziran 2025
                         <br />
-                        Ücret: Aylık: 6000 TL (kdv hariç)
-                        <br />
-                        Kırtasiye ücreti yılda bir kere alınır. 1500TL dir.
                       </Disclosure.Panel>
                     </>
                   )}
