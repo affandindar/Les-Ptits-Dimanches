@@ -14,7 +14,7 @@ export const Hero = () => {
   
   
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center select-none">
       
       <div className="flex flex-col gap-3 md:gap-10 justify-center text-white items-center z-10 absolute">
         <div className={alisson.className}>
@@ -37,7 +37,7 @@ export const Hero = () => {
         
       </div>
 
-      <Image src={hero} alt="hero" className="brightness-[0.80] h-svh object-cover " />
+      <Image src={hero} alt="hero" className="brightness-[0.80] h-svh object-cover" />
       
       
       

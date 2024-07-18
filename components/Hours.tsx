@@ -78,10 +78,10 @@ const Hours = () => {
                     <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900"></Dialog.Title>
                     <div className="">
                     <div className="flex flex-col justify-center items-center">
-        <div className="md:w-full max-w-md px-2 py-16 sm:px-0 mx-auto rounded-2xl bg-[#77DD77] bg-opacity-60 p-2 ">
-        <div className="flex justify-start px-4 relative -top-7">
-        <XMarkIcon className="h-6 w-6 text-black-500 hover:cursor-pointer" onClick={close} />
-        </div>
+        <div className="md:w-full max-w-md px-2 py-8 sm:px-0 mx-auto rounded-2xl bg-[#77DD77] bg-opacity-60 p-2 ">
+        
+        <XMarkIcon className="h-6 w-6 text-black-500 hover:cursor-pointer mx-2 mb-4" onClick={close} />
+        
           <Tab.Group>
             <Tab.List className="flex space-x-1 rounded-xl bg-[#77DD77] bg-opacity-60 p-1 m-1">
               <Tab
