@@ -30,7 +30,7 @@ export const Hero = () => {
               autoStart: true,
               loop: true,
               delay: 70,
-              wrapperClassName: `md:text-3xl text-bold`,
+              wrapperClassName: `text-sm md:text-2xl text-bold`,
             }}
           />
         </div>
