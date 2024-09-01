@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${schoolbell.className} tracking-widest`}>
-      <AppBar ids={["hero", "goals", "schedule", "hours"]} />
+      <AppBar ids={["hero", "goals", "schedule", "hours","founder"]} />
       {children}
       </body>
     </html>

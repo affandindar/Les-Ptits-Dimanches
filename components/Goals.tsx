@@ -7,7 +7,7 @@ const Goals = () => {
   return (
     <>
     
-    <div className="bg-lesptit-header flex md:flex-row flex-col items-center rounded-2xl p-5">
+    <div className="bg-lesptit-header  flex md:flex-row flex-col items-center rounded-2xl p-5">
       <Image src={amaclar} alt="image" className="rounded-xl" width={350}/>
       <div className="p-4 text-pretty flex flex-col gap-8 text-white">
       <h1 className="text-center font-bold text-3xl text-white pt-5 md:pt-0">AMAÇLAR</h1>

@@ -11,6 +11,7 @@ export const links = [
   "AMAÇLAR",
   "PROGRAMIMIZ",
   "SAATLER VE GRUPLAR",
+  "KURUCUMUZ",
 ];
 type AppBarProps = {
   //refs: MutableRefObject<HTMLDivElement | null>[];

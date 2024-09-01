@@ -1,4 +1,5 @@
 "use client";
+import Founder from "@/components/Founder";
 import Goals from "@/components/Goals";
 import { Hero } from "@/components/Hero";
 import Hours from "@/components/Hours";
@@ -10,6 +11,7 @@ export default function Home() {
   const goalsRef = useRef<HTMLDivElement | null>(null);
   const scheduleRef = useRef<HTMLDivElement | null>(null);
   const hoursRef = useRef<HTMLDivElement | null>(null);
+  const founderRef = useRef<HTMLDivElement | null>(null);
   return (
     <div className="bg-lesptit-primary">
       <div id="hero" ref={heroRef}>
@@ -22,8 +24,11 @@ export default function Home() {
         <div id="schedule" className="" ref={scheduleRef}>
           <Schedule />
         </div>
-        <div id="hours" ref={hoursRef} className="">
+        <div id="hours" ref={hoursRef}>
           <Hours />
+        </div>
+        <div id="founder" ref={founderRef}>
+          <Founder />
         </div>
       </div>
     </div>
